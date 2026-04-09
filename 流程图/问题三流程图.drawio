@@ -1,0 +1,306 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6" pages="7">
+  <diagram id="60OzOV6vLV51VMc-qHPP" name="第 2 页">
+    <mxGraphModel dx="1055" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-15" value="【理论构建与推导】&#xa;形成条件, Airy公式" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="204" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-16" value="【精度影响分析】&#xa;条纹锐化, 相位敏感性等" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="374" y="460" width="231" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-17" value="【模型实证验证】&#xa;应用于附件3, 4: 硅晶圆" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="655" y="460" width="226" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-18" value="【验证结论】&#xa;计算厚度 d = 1.96 μm" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="931" y="460" width="214" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="xxv_FfvIZ_1nvemXpe-M-15" target="xxv_FfvIZ_1nvemXpe-M-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="xxv_FfvIZ_1nvemXpe-M-16" target="xxv_FfvIZ_1nvemXpe-M-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxv_FfvIZ_1nvemXpe-M-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="xxv_FfvIZ_1nvemXpe-M-17" target="xxv_FfvIZ_1nvemXpe-M-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="COrNUNNiVu9l82elp62W" name="第 3 页">
+    <mxGraphModel dx="1213" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-1" value="【问题分析与策略】&#xa;(色散, 信号复杂性, 噪声)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="44" y="363" width="237" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-2" value="【物理-数据模型构建】&#xa;(多光束物理模型, 数据驱动算法)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="331" y="351" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-3" value="【集成优化求解】&#xa;(初始厚度估算 -&amp;gt; LM全局优化)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="641" y="351" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-4" value="【结果验证与结论】&#xa;(可视化分析, 一致性检验)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="951" y="363" width="242" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="ySaYdOGVIuEjhnstAvF3-1" target="ySaYdOGVIuEjhnstAvF3-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="ySaYdOGVIuEjhnstAvF3-2" target="ySaYdOGVIuEjhnstAvF3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySaYdOGVIuEjhnstAvF3-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="ySaYdOGVIuEjhnstAvF3-3" target="ySaYdOGVIuEjhnstAvF3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Vs7-ePLuTatZ8R8-MTBk" name="第 4 页">
+    <mxGraphModel dx="1144" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HG16l_N8cs_CSskpSlDf-1" value="【问题分析与模型框架】&#xa;(双光束物理情景, 建模策略)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="111" y="354" width="258" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-2" value="【核心模型推导】&#xa;(光程差, 相位差, 菲涅尔反射率)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="419" y="342" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-3" value="【集成优化与求解】&#xa;(初始估算d0, LM优化)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="729" y="354" width="211" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-4" value="【结果验证与结论】&#xa;(可视化分析, 一致性检验)" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="991" y="354" width="242" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" source="HG16l_N8cs_CSskpSlDf-1" target="HG16l_N8cs_CSskpSlDf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" source="HG16l_N8cs_CSskpSlDf-2" target="HG16l_N8cs_CSskpSlDf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HG16l_N8cs_CSskpSlDf-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontSize=16;" edge="1" parent="1" source="HG16l_N8cs_CSskpSlDf-3" target="HG16l_N8cs_CSskpSlDf-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2kA0mhKbHyQ2T74gq6sl" name="第 5 页">
+    <mxGraphModel dx="1346" dy="974" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-1" value="【数据预处理】&#xa;(信号分解, 标准化, 一致性检查)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="182" y="546" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-2" value="【鲁棒初值估计】&#xa;(HHT瞬时频率, 多角度融合)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="492" y="558" width="257" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-3" value="【高保真模型求解】&#xa;(Airy公式, 贝叶斯优化, PSO-LM混合算法)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="799" y="546" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-4" value="【可靠性与不确定性分析】&#xa;(蒙特卡洛模拟, 误差融合, 自洽性验证)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="546" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;fontSize=16;" edge="1" parent="1" source="BCrGlrloGbrKMCUnKZoh-1" target="BCrGlrloGbrKMCUnKZoh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;fontSize=16;" edge="1" parent="1" source="BCrGlrloGbrKMCUnKZoh-2" target="BCrGlrloGbrKMCUnKZoh-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCrGlrloGbrKMCUnKZoh-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;fontSize=16;" edge="1" parent="1" source="BCrGlrloGbrKMCUnKZoh-3" target="BCrGlrloGbrKMCUnKZoh-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Qo_Co0JIolyjbK0s6FdM" name="第 6 页">
+    <mxGraphModel dx="1144" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-1" value="【量化判据建立】&#xa;(引入显著性因子γ)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="209" y="360" width="192" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-2" value="【适用性判定: Si晶圆】&#xa;(数据驱动计算γ, 判定多光束显著)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="451" y="348" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-3" value="【数学模型与求解】&#xa;(构建Airy模型, LM优化求解)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="761" y="360" width="258" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-4" value="【计算结果与分析】&#xa;(多角度交叉验证, 得出最终厚度)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1069" y="348" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1" edge="1" parent="1" source="Pn13JSy2aD4q6neGCaPd-1" target="Pn13JSy2aD4q6neGCaPd-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1" edge="1" parent="1" source="Pn13JSy2aD4q6neGCaPd-2" target="Pn13JSy2aD4q6neGCaPd-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pn13JSy2aD4q6neGCaPd-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1" edge="1" parent="1" source="Pn13JSy2aD4q6neGCaPd-3" target="Pn13JSy2aD4q6neGCaPd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U8iv0FObyEEAt70LFjSp" name="第 7 页">
+    <mxGraphModel dx="1346" dy="974" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-1" value="【光谱诊断与区域界定】&#xa;(识别声子带, 限定纯干涉区)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="11" y="367" width="258" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-2" value="【效应量化与校正论证】&#xa;(计算γ值, 论证修正必要性)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="319" y="367" width="251" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-3" value="【修正策略与算法实施】&#xa;(数据截断, 采用Airy模型拟合)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="621" y="355" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-4" value="【校正结果与影响分析】&#xa;(得出最终厚度, 量化精度提升)" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="931" y="355" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="7jo5S7VlsbIE-G6YnMG7-1" target="7jo5S7VlsbIE-G6YnMG7-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="7jo5S7VlsbIE-G6YnMG7-2" target="7jo5S7VlsbIE-G6YnMG7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jo5S7VlsbIE-G6YnMG7-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;fontStyle=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="7jo5S7VlsbIE-G6YnMG7-3" target="7jo5S7VlsbIE-G6YnMG7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1Sz-M35EILD_9uK0NUKj" name="第 8 页">
+    <mxGraphModel dx="953" dy="690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-62" value="最终目标" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1379" width="292" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-63" value="模型建立与求解" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="989" y="712" width="743" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-64" value="总体思路" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="618" width="355" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-65" value="前期准备&#xa;(数据分析, 文献查阅)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="774.5" y="925" width="159" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-66" target="g5q3mDKdi8V6L50A-YJc-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-66" value="模型建立与求解" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="772.5" y="1036" width="163" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-67" value="结果分析与验证" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="783" y="1173" width="142" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-68" value="基础理论建模&#xa;(双光束干涉物理模型)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="983.25" width="113" height="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-69" value="鲁棒算法实现&#xa;(信号处理与全局优化)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="737" width="186" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-70" value="模型演进与校正&#xa;(多光束量化诊断与应用)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1496" y="737" width="202" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-71" value="一套精确、可靠、可校正的&#xa;半导体外延层厚度测量方案" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1363" y="1037" width="222" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontStyle=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-65" target="g5q3mDKdi8V6L50A-YJc-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-84" target="g5q3mDKdi8V6L50A-YJc-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-84" value="&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;问题一&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#EEEEEE;fontColor=#FFFFFF;fillColor=#56517E;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="985.62" width="70" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-88" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-66" target="g5q3mDKdi8V6L50A-YJc-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941" y="1061" as="sourcePoint" />
+            <mxPoint x="991" y="1011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-94" target="g5q3mDKdi8V6L50A-YJc-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-94" value="&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;问题二&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#EEEEEE;fontColor=#FFFFFF;fillColor=#56517E;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="1054.37" width="70" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-98" value="鲁棒算法实现&#xa;(信号处理与全局优化)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="1051.99" width="113" height="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-101" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-66" target="g5q3mDKdi8V6L50A-YJc-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="967" y="1075" as="sourcePoint" />
+            <mxPoint x="1017" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#182E3E;" edge="1" parent="1" source="g5q3mDKdi8V6L50A-YJc-103" target="g5q3mDKdi8V6L50A-YJc-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-103" value="&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;问题三&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#EEEEEE;fontColor=#FFFFFF;fillColor=#56517E;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="1122.6299999999999" width="70" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-104" value="模型演进与校正&#xa;(多光束量化诊断与应用)" style="rounded=1;arcSize=20;strokeWidth=2;fontStyle=1;labelBackgroundColor=none;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="1120.25" width="113" height="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-105" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#182E3E;entryX=0.079;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="929.97" y="1111.004407898835" as="sourcePoint" />
+            <mxPoint x="1009" y="1146.674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5q3mDKdi8V6L50A-YJc-106" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#432D57;fillColor=#76608a;" edge="1" parent="1" target="g5q3mDKdi8V6L50A-YJc-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="1079" as="sourcePoint" />
+            <mxPoint x="1034" y="1018" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
